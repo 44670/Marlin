@@ -1,8 +1,9 @@
 # 修改记录（针对小树T3）
-1. 电机驱动换成了TMC2209，需要自行购买、安装模块并配置跳线。
+
+20210419
+1. 电机驱动换成了静音的TMC2209，需要自行购买模块、安装模块并配置跳线。
 2. 修改了电机驱动的电流。（XY:630ma, Z:800ma, E0:900ma）
 3. 启用了热床，根据 https://docs.qq.com/doc/DZnJqUHRSQlFibktK 上的信息修改了喷头、热床的PID参数。
-3. 
 
 
 # Marlin 3D Printer Firmware
