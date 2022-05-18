@@ -66,6 +66,7 @@
 // Servos
 //
 #ifndef SERVO0_PIN
+#error xxxxxxx
   #ifdef IS_RAMPS_13
     #define SERVO0_PIN                         7
   #else
