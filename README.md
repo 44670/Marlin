@@ -4,6 +4,8 @@
 2. 修改了电机驱动的电流。（XY:630ma, Z:800ma, E0:900ma）
 3. 启用了热床，根据 https://docs.qq.com/doc/DZnJqUHRSQlFibktK 上的信息修改了喷头、热床的PID参数。
 4. 启用了断料检测开关，配置了引脚在ZMAX上。
+5. 增加了3DTouch自动调平传感器并替代Z限位，安装方法参见：https://www.zhangzi.life/articles/1622096182000 （由于ZMAX已有断料检测开关，所以接在了ZMIN上，与链接里的接线方式略有不同）
+6. 液晶模块换成了MKS-MINI12864-V3
 
 
 # Marlin 3D Printer Firmware
